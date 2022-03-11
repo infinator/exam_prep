@@ -1,7 +1,7 @@
 # Basic Concepts of C Programming
 ***
 
-<a href = "https://www.slideshare.net/avikdhupar/amazing-c">
+<a href = "https://www.slideshare.net/avikdhupar/amazing-c">link to ppt</a>
 
 ## Overview of C
 ***
@@ -29,14 +29,53 @@
 ***
 
 1. Primitive data types
-    * int    - integer type
-    * float  - floating point type
-    * double - provides double precision than float
-    * char   - character type
+    * `int`    - integer type
+    * `float`  - floating point type
+    * `double` - provides double precision than float
+    * `char`   - character type
 
 2. Aggregate data types
-    * arrays
+    * `arrays`
 
 3. User defined data types
-    * stucts - collection of variables (can be of different types) under a single name
-    * enum   - an enumeration type that consists of integral constants
+    * `stucts` - collection of variables (can be of different types) under a single name
+    * `enum`   - an enumeration type that consists of integral constants
+
+## Rules for Naming Variables
+***
+
+1. Shouldn't be a reserved word like `int`.
+2. Should start only with a letter or an underscore ( _ ).
+3. Can contain letters, numbers and underscore. No other special characters are allowed (including space).
+
+## Operators
+***
+
+1. Arithmetic : `+`, `-`, `*`, `/`, `%`
+2. Relational : `<`, `>`, `<=`, `>=`, `==`, `!=`
+3. Logical : `&&`, `||`, `!`
+4. Bitwise : `&`, `|`
+5. Assignment : `=`
+6. Compound Assignment : `+=`, `*=`, `-=`, `/=`, `%=`, `&=`, `=`
+7. Shift : `>>`, `<<`
+
+## String Functions
+***
+
+1. `strlen(str)` - finds the length of the string
+2. `strrev(str)` - reverses the string
+3. `strcat(str1, str2)` - append `str2` to `str1`
+4. `strcpy(str1, str2)` - copies the content of `str2` to `str1`
+5. `strcmp(str1, str2)` - compares the two strings
+6. `strcmpi(str1, str2)` - case insensitive comparison
+
+## Numeric Functions
+***
+
+1. `pow(n, x)`
+2. `ceil(1.3)` - returns 2
+3. `floor(1.3)` - return 1
+4. `abs(num)` - returns the absolute value
+5. `log(x)`
+6. `sin(x)`
+7. `cos(x)`
