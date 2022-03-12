@@ -15,11 +15,11 @@
 
 * The files that are specified in the include section is called as header file.
 * These are pre-compiled files that has some functions defined in them.
-* We can call those program in our program by suppluing parameters
+* We can call those program in our program by suppluing parameters.
 * Header file is given an extension <code>.h</code>
 * C source file is given an extension <code>.c</code>
 
-### Main Functions
+### Main Function
 
 * It is the entry point of the program.
 * It is a compulsory for any C program.
