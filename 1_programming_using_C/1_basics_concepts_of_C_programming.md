@@ -1,7 +1,6 @@
 # Basic Concepts of C Programming
 ***
-
-<a href = "https://www.slideshare.net/avikdhupar/amazing-c">link to ppt</a>
+<br>
 
 ## Overview of C
 ***
@@ -79,3 +78,23 @@
 5. `log(x)`
 6. `sin(x)`
 7. `cos(x)`
+
+## Function and Procedure
+
+### Function
+It is one among the fundamental thought in the computer programming. It is used to calculate something from a given input. The function program has a block of code that performs some specific tasks.
+
+### Procedure
+In programming a particular set of instructions or commands along known as a procedure. Counting on the programming language it is known as a procedure, subroutine, function or a subprogram.
+
+### Difference between Function and Procedure
+| Function | Procedure  |
+|---|---|
+| A function deals with an expression. | Whereas a procedure doesn't deal with an expression. |
+| The function can be called by a procedure. | Whereas a procedure can't be called a function. |
+
+## Type Def
+
+* The `typedef` operator is used for creating alias of a data type.
+* For example : `typedef int integer;`
+
