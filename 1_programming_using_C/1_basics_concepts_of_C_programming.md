@@ -80,6 +80,7 @@
 7. `cos(x)`
 
 ## Function and Procedure
+***
 
 ### Function
 It is one among the fundamental thought in the computer programming. It is used to calculate something from a given input. The function program has a block of code that performs some specific tasks.
@@ -94,7 +95,7 @@ In programming a particular set of instructions or commands along known as a pro
 | The function can be called by a procedure. | Whereas a procedure can't be called a function. |
 
 ## Type Def
+***
 
 * The `typedef` operator is used for creating alias of a data type.
 * For example : `typedef int integer;`
-
